@@ -7,9 +7,13 @@ logging.basicConfig(level=logging.DEBUG)
 
 
 def generate_dir_index(curr_dir: Path, parent_link: bool = False):
+    """Read directory content and generate index.html recursively
+
+    Useful for static S3 hosting where you can't tell web server to create directory listings
+    """
+
     logging.info(f"Generate index for {curr_dir.name}")
     filenames = sorted([f for f in curr_dir.iterdir() if not f.name.startswith("index")])
-
 
     links_str = ""
     for path in filenames:
