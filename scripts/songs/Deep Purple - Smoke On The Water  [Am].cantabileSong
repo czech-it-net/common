@@ -1,15 +1,12 @@
-
 {
-	"metronome": 
-	{
+	"metronome": {
 		"timeSignature": "4\/4",
 		"tempo": 119,
 		"masterTransportId": "metronome",
 		"soundsGain": 1,
 		"soundsEnabled": false,
 		"measureSoundsEnabled": true,
-		"stateManager": 
-		{
+		"stateManager": {
 			"behaviour": 3,
 			"indexedBehaviour": null,
 			"externalBehaviour": 0,
@@ -20,12 +17,10 @@
 			"resetState": null
 		}
 	},
-	"onscreenKeyboardState": 
-	{
+	"onscreenKeyboardState": {
 		"activeOctaveA": 4,
 		"activeOctaveB": 5,
-		"stateManager": 
-		{
+		"stateManager": {
 			"behaviour": 3,
 			"indexedBehaviour": null,
 			"externalBehaviour": 0,
@@ -36,9 +31,7 @@
 			"resetState": null
 		}
 	},
-	"showNotes": 
-	[
-		
+	"showNotes": [
 		{
 			"hidden": false,
 			"backgroundColor": "Default",
@@ -48,12 +41,11 @@
 			"fontSize": 32,
 			"bold": true,
 			"fixedPitch": false,
-			"imageFile": "Ver:  D  Hm G   Ref:  D A Em G  D\/H E A   Solo: ",
+			"imageFile": "",
 			"uniqueID": 1,
-			"imageFileRelative": "ver:  D  Hm G   Ref:  D A Em G  D\\H E A   Solo:",
+			"imageFileRelative": "",
 			"imageScale": 1,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 7,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -66,9 +58,7 @@
 		}
 	],
 	"currentState": null,
-	"bindings": 
-	[
-		
+	"bindings": [
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -103,8 +93,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": "Volume",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -116,7 +105,6 @@
 			},
 			"uniqueID": 10000001
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -151,8 +139,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -164,7 +151,6 @@
 			},
 			"uniqueID": 10000002
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -199,8 +185,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -212,7 +197,6 @@
 			},
 			"uniqueID": 10000003
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -247,8 +231,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -260,7 +243,6 @@
 			},
 			"uniqueID": 10000004
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -295,8 +277,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -308,7 +289,6 @@
 			},
 			"uniqueID": 10000005
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -343,8 +323,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -356,7 +335,6 @@
 			},
 			"uniqueID": 10000006
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -391,8 +369,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -404,7 +381,6 @@
 			},
 			"uniqueID": 10000007
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -439,8 +415,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -452,7 +427,6 @@
 			},
 			"uniqueID": 10000008
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -487,8 +461,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": "B4 Drive 14028 | 14156 | 14284",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -500,7 +473,6 @@
 			},
 			"uniqueID": 10000010
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -535,8 +507,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": "Zones Switches",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -548,7 +519,6 @@
 			},
 			"uniqueID": 10000011
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -583,8 +553,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -596,7 +565,6 @@
 			},
 			"uniqueID": 10000012
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -631,8 +599,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -644,7 +611,6 @@
 			},
 			"uniqueID": 10000013
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -679,8 +645,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -692,7 +657,6 @@
 			},
 			"uniqueID": 10000014
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -727,8 +691,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -740,7 +703,6 @@
 			},
 			"uniqueID": 10000015
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -775,8 +737,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -788,7 +749,6 @@
 			},
 			"uniqueID": 10000016
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -823,8 +783,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -836,7 +795,6 @@
 			},
 			"uniqueID": 10000017
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -871,8 +829,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 8,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -885,17 +842,14 @@
 			"uniqueID": 10000018
 		}
 	],
-	"bindingGroups": 
-	[
-		
+	"bindingGroups": [
 		{
 			"name": "General",
 			"expanded": true,
 			"enabled": true,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -912,15 +866,12 @@
 	"triggers": [],
 	"savedByVersion": "3.0.3558",
 	"nextUniqueID": 29,
-	"objects": 
-	[
-		
+	"objects": [
 		{
 			"kind": "InputPortProvider",
 			"transpose": 0,
 			"inputGain": 1,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -928,8 +879,7 @@
 				"resetBehaviour": 2,
 				"resetIndexedBehaviour": null,
 				"states": {},
-				"resetState": 
-				{
+				"resetState": {
 					"inputGain": 1,
 					"transpose": 0,
 					"userNotes": null,
@@ -940,17 +890,14 @@
 			"userNotes": null,
 			"nextUniqueID": 32,
 			"uniqueId": 1,
-			"routes": 
-			[
-				
+			"routes": [
 				{
 					"kind": "midiRoute",
 					"sourceChannelMask": 1,
 					"keyRangeMin": 0,
 					"keyRangeMax": 127,
 					"transpose": 0,
-					"velocityCurve": 
-					{
+					"velocityCurve": {
 						"inputMin": 0,
 						"inputMax": 127,
 						"outputMin": 0,
@@ -969,96 +916,19 @@
 					"keyRangeColor": "Auto",
 					"enableConditionCC": false,
 					"conditionCC": 0,
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					},
-					"stateManager": 
-					{
-						"behaviour": 917,
+					"stateManager": {
+						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
 						"externalIndexedBehaviour": null,
+						"nonLinkedBehaviour": 0,
+						"nonLinkedIndexedBehaviour": null,
 						"resetBehaviour": 0,
 						"resetIndexedBehaviour": null,
-						"states": 
-						{
-							"1": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": false,
-								"sourceChannelMask": 256,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 1,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							},
-							"2": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": true,
-								"sourceChannelMask": 256,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 1,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							},
-							"3": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": true,
-								"sourceChannelMask": 256,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 1,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							}
-						},
+						"states": {},
 						"resetState": null
 					},
 					"enabled": true,
@@ -1070,15 +940,13 @@
 					"targetName": "B4",
 					"targetPort": "MIDI In"
 				},
-				
 				{
 					"kind": "midiRoute",
 					"sourceChannelMask": 2,
 					"keyRangeMin": 0,
 					"keyRangeMax": 127,
 					"transpose": 0,
-					"velocityCurve": 
-					{
+					"velocityCurve": {
 						"inputMin": 0,
 						"inputMax": 127,
 						"outputMin": 0,
@@ -1097,96 +965,19 @@
 					"keyRangeColor": "Auto",
 					"enableConditionCC": false,
 					"conditionCC": 0,
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					},
-					"stateManager": 
-					{
-						"behaviour": 917,
+					"stateManager": {
+						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
 						"externalIndexedBehaviour": null,
+						"nonLinkedBehaviour": 0,
+						"nonLinkedIndexedBehaviour": null,
 						"resetBehaviour": 0,
 						"resetIndexedBehaviour": null,
-						"states": 
-						{
-							"1": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": true,
-								"sourceChannelMask": 512,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 3,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							},
-							"2": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": false,
-								"sourceChannelMask": 512,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 3,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							},
-							"3": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": true,
-								"sourceChannelMask": 512,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 3,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							}
-						},
+						"states": {},
 						"resetState": null
 					},
 					"enabled": true,
@@ -1198,15 +989,13 @@
 					"targetName": "B4",
 					"targetPort": "MIDI In"
 				},
-				
 				{
 					"kind": "midiRoute",
 					"sourceChannelMask": 256,
 					"keyRangeMin": 0,
 					"keyRangeMax": 127,
 					"transpose": 0,
-					"velocityCurve": 
-					{
+					"velocityCurve": {
 						"inputMin": 0,
 						"inputMax": 127,
 						"outputMin": 0,
@@ -1225,96 +1014,19 @@
 					"keyRangeColor": "Auto",
 					"enableConditionCC": false,
 					"conditionCC": 0,
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					},
-					"stateManager": 
-					{
-						"behaviour": 917,
+					"stateManager": {
+						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
 						"externalIndexedBehaviour": null,
+						"nonLinkedBehaviour": 0,
+						"nonLinkedIndexedBehaviour": null,
 						"resetBehaviour": 0,
 						"resetIndexedBehaviour": null,
-						"states": 
-						{
-							"1": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": false,
-								"sourceChannelMask": 1,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 0,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							},
-							"2": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": true,
-								"sourceChannelMask": 1,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 0,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							},
-							"3": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": true,
-								"sourceChannelMask": 1,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 0,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							}
-						},
+						"states": {},
 						"resetState": null
 					},
 					"enabled": true,
@@ -1326,15 +1038,13 @@
 					"targetName": "B4",
 					"targetPort": "MIDI In"
 				},
-				
 				{
 					"kind": "midiRoute",
 					"sourceChannelMask": 512,
 					"keyRangeMin": 0,
 					"keyRangeMax": 127,
 					"transpose": 0,
-					"velocityCurve": 
-					{
+					"velocityCurve": {
 						"inputMin": 0,
 						"inputMax": 127,
 						"outputMin": 0,
@@ -1353,96 +1063,19 @@
 					"keyRangeColor": "Auto",
 					"enableConditionCC": false,
 					"conditionCC": 0,
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					},
-					"stateManager": 
-					{
-						"behaviour": 917,
+					"stateManager": {
+						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
 						"externalIndexedBehaviour": null,
+						"nonLinkedBehaviour": 0,
+						"nonLinkedIndexedBehaviour": null,
 						"resetBehaviour": 0,
 						"resetIndexedBehaviour": null,
-						"states": 
-						{
-							"1": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": true,
-								"sourceChannelMask": 2,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 2,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							},
-							"2": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": false,
-								"sourceChannelMask": 2,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 2,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							},
-							"3": 
-							{
-								"sourcePort": "loop ZONES",
-								"targetKind": "RackHost",
-								"targetName": "B4",
-								"targetPort": "MIDI In",
-								"enabled": true,
-								"sourceChannelMask": 2,
-								"enableSourceProgramNumber": false,
-								"sourceProgramNumber": 8421376,
-								"keyRangeMin": 0,
-								"keyRangeMax": 127,
-								"transpose": 0,
-								"targetChannel": 2,
-								"enableConditionCC": false,
-								"conditionCC": 0,
-								"conditionOperator": "GreaterThanOrEqual",
-								"conditionValue": 64,
-								"userNotes": null,
-								"velocityCurve": null,
-								"showKeyRange": true,
-								"keyRangeColor": "Auto",
-								"notesOnly": false,
-								"savedBehaviour": 917
-							}
-						},
+						"states": {},
 						"resetState": null
 					},
 					"enabled": true,
@@ -1459,12 +1092,10 @@
 			"displayExpanded": true,
 			"slotColor": "Default"
 		},
-		
 		{
 			"kind": "OutputPortProvider",
 			"outputGain": 1,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -1472,8 +1103,7 @@
 				"resetBehaviour": 1,
 				"resetIndexedBehaviour": null,
 				"states": {},
-				"resetState": 
-				{
+				"resetState": {
 					"outputGain": 1,
 					"userNotes": null,
 					"slotColor": "Red",
@@ -1488,15 +1118,12 @@
 			"displayExpanded": false,
 			"slotColor": "Red"
 		},
-		
 		{
 			"kind": "MediaPlayer",
 			"selectedFile": "Deep Purple - Smoke on the Water",
 			"uiSettings": {},
 			"selectedFileIndex": 0,
-			"files": 
-			[
-				
+			"files": [
 				{
 					"currentPlayRange": null,
 					"name": "Deep Purple - Smoke on the Water",
@@ -1508,9 +1135,7 @@
 					"transpose": 0,
 					"ignoreGlobalTranspose": true,
 					"gain": 1,
-					"audioPortAssignments": 
-					[
-						
+					"audioPortAssignments": [
 						{
 							"portName": "Stereo Out",
 							"portChannel": "Left",
@@ -1519,7 +1144,6 @@
 							"panPlacement": "LeftBalance",
 							"fadePlacement": "None"
 						},
-						
 						{
 							"portName": "Stereo Out",
 							"portChannel": "Right",
@@ -1539,29 +1163,21 @@
 					"timeFormat": "Realtime"
 				}
 			],
-			"midiPorts": 
-			[
-				
+			"midiPorts": [
 				{
 					"MediaPlayerPortName": null,
 					"name": "MIDI Out",
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					}
 				}
 			],
-			"audioPorts": 
-			[
-				
+			"audioPorts": [
 				{
-					"channels": 
-					[
-						
+					"channels": [
 						{
 							"name": "Left"
 						},
-						
 						{
 							"name": "Right"
 						}
@@ -1580,8 +1196,7 @@
 			"fadePosition": 1,
 			"userNotes": null,
 			"musicalTimeFormat": true,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -1597,56 +1212,20 @@
 			"soloControl": true,
 			"nextUniqueID": 1,
 			"uniqueId": 29,
-			"routes": 
-			[
-				
+			"routes": [
 				{
 					"kind": "audioRoute",
 					"gainLevel": 1,
-					"stateManager": 
-					{
-						"behaviour": 0,
+					"stateManager": {
+						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
 						"externalIndexedBehaviour": null,
+						"nonLinkedBehaviour": 0,
+						"nonLinkedIndexedBehaviour": null,
 						"resetBehaviour": 0,
 						"resetIndexedBehaviour": null,
-						"states": 
-						{
-							"1": 
-							{
-								"sourcePort": "Stereo Out",
-								"targetKind": "OutputPortProvider",
-								"targetName": "OutputPort",
-								"targetPort": "Master Out",
-								"enabled": true,
-								"gainLevel": 1,
-								"userNotes": null,
-								"savedBehaviour": 31
-							},
-							"2": 
-							{
-								"sourcePort": "Stereo Out",
-								"targetKind": "OutputPortProvider",
-								"targetName": "OutputPort",
-								"targetPort": "Master Out",
-								"enabled": true,
-								"gainLevel": 1,
-								"userNotes": null,
-								"savedBehaviour": 31
-							},
-							"3": 
-							{
-								"sourcePort": "Stereo Out",
-								"targetKind": "OutputPortProvider",
-								"targetName": "OutputPort",
-								"targetPort": "Master Out",
-								"enabled": true,
-								"gainLevel": 1,
-								"userNotes": null,
-								"savedBehaviour": 31
-							}
-						},
+						"states": {},
 						"resetState": null
 					},
 					"enabled": true,
@@ -1663,17 +1242,14 @@
 			"displayExpanded": false,
 			"slotColor": "Default"
 		},
-		
 		{
 			"kind": "RackHost",
 			"embeddedRack": null,
 			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\b4.cantabileRack",
 			"gain": 1,
 			"rackState": null,
-			"exportedRackState": 
-			{
-				"plugin.3": 
-				{
+			"exportedRackState": {
+				"plugin.3": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1693,8 +1269,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.8": 
-				{
+				"plugin.8": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1720,8 +1295,7 @@
 			"primaryView": false,
 			"resetRackState": false,
 			"runMode": "Running",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 2,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -1735,14 +1309,11 @@
 			"soloControl": true,
 			"nextUniqueID": 1,
 			"uniqueId": 22,
-			"routes": 
-			[
-				
+			"routes": [
 				{
 					"kind": "audioRoute",
 					"gainLevel": 1,
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 13,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -1766,17 +1337,14 @@
 			"displayExpanded": false,
 			"slotColor": "Default"
 		},
-		
 		{
 			"kind": "RackHost",
 			"embeddedRack": null,
 			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\fx.cantabileRack",
 			"gain": 1,
 			"rackState": null,
-			"exportedRackState": 
-			{
-				"plugin.3": 
-				{
+			"exportedRackState": {
+				"plugin.3": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1796,8 +1364,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.4": 
-				{
+				"plugin.4": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1817,8 +1384,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.5": 
-				{
+				"plugin.5": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1838,8 +1404,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.6": 
-				{
+				"plugin.6": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1859,8 +1424,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.8": 
-				{
+				"plugin.8": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1880,8 +1444,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.9": 
-				{
+				"plugin.9": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1901,8 +1464,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.8.AudioRoute.2": 
-				{
+				"plugin.8.AudioRoute.2": {
 					"sourcePort": "Stereo Out",
 					"targetKind": "OutputPortProvider",
 					"targetName": "OutputPort",
@@ -1912,8 +1474,7 @@
 					"userNotes": null,
 					"savedBehaviour": 31
 				},
-				"plugin.8.AudioRoute.1": 
-				{
+				"plugin.8.AudioRoute.1": {
 					"sourcePort": "Stereo Out",
 					"targetKind": "Plugin",
 					"targetName": "FabFilter Pro-R 1",
@@ -1929,8 +1490,7 @@
 			"primaryView": false,
 			"resetRackState": false,
 			"runMode": "Running",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 2,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -1944,14 +1504,11 @@
 			"soloControl": true,
 			"nextUniqueID": 1,
 			"uniqueId": 28,
-			"routes": 
-			[
-				
+			"routes": [
 				{
 					"kind": "audioRoute",
 					"gainLevel": 1,
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 13,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -1975,17 +1532,14 @@
 			"displayExpanded": false,
 			"slotColor": "Default"
 		},
-		
 		{
 			"kind": "RackHost",
 			"embeddedRack": null,
 			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\Master.cantabileRack",
 			"gain": 1,
 			"rackState": "Live",
-			"exportedRackState": 
-			{
-				"inputPorts.1": 
-				{
+			"exportedRackState": {
+				"inputPorts.1": {
 					"inputGain": 1.00387537,
 					"transpose": 0,
 					"userNotes": "NRPN 16265 (127.9) - Input Gain - to equalize songs",
@@ -1998,8 +1552,7 @@
 			"primaryView": false,
 			"resetRackState": false,
 			"runMode": "Running",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,

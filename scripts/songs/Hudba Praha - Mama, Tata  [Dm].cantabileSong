@@ -1,15 +1,12 @@
-
 {
-	"metronome": 
-	{
+	"metronome": {
 		"timeSignature": "4\/4",
 		"tempo": 119,
 		"masterTransportId": "metronome",
 		"soundsGain": 1,
 		"soundsEnabled": false,
 		"measureSoundsEnabled": true,
-		"stateManager": 
-		{
+		"stateManager": {
 			"behaviour": 3,
 			"indexedBehaviour": null,
 			"externalBehaviour": 0,
@@ -20,12 +17,10 @@
 			"resetState": null
 		}
 	},
-	"onscreenKeyboardState": 
-	{
+	"onscreenKeyboardState": {
 		"activeOctaveA": 4,
 		"activeOctaveB": 5,
-		"stateManager": 
-		{
+		"stateManager": {
 			"behaviour": 3,
 			"indexedBehaviour": null,
 			"externalBehaviour": 0,
@@ -38,9 +33,7 @@
 	},
 	"showNotes": [],
 	"currentState": null,
-	"bindings": 
-	[
-		
+	"bindings": [
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -75,8 +68,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": "Volume",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -88,7 +80,6 @@
 			},
 			"uniqueID": 10000001
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -123,8 +114,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -136,7 +126,6 @@
 			},
 			"uniqueID": 10000002
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -171,8 +160,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -184,7 +172,6 @@
 			},
 			"uniqueID": 10000003
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -219,8 +206,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -232,7 +218,6 @@
 			},
 			"uniqueID": 10000004
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -267,8 +252,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -280,7 +264,6 @@
 			},
 			"uniqueID": 10000005
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -315,8 +298,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -328,7 +310,6 @@
 			},
 			"uniqueID": 10000006
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -363,8 +344,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -376,7 +356,6 @@
 			},
 			"uniqueID": 10000007
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -411,8 +390,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -424,7 +402,6 @@
 			},
 			"uniqueID": 10000008
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -459,8 +436,7 @@
 			"stringParameter": null,
 			"slotColor": "Default",
 			"userNotes": "B4 Drive 14028 | 14156 | 14284",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -472,7 +448,6 @@
 			},
 			"uniqueID": 10000010
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -507,8 +482,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": "Zones Switches",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -520,7 +494,6 @@
 			},
 			"uniqueID": 10000011
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -555,8 +528,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -568,7 +540,6 @@
 			},
 			"uniqueID": 10000012
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -603,8 +574,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -616,7 +586,6 @@
 			},
 			"uniqueID": 10000013
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -651,8 +620,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -664,7 +632,6 @@
 			},
 			"uniqueID": 10000014
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -699,8 +666,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -712,7 +678,6 @@
 			},
 			"uniqueID": 10000015
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -747,8 +712,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -760,7 +724,6 @@
 			},
 			"uniqueID": 10000016
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -795,8 +758,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 9,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -808,7 +770,6 @@
 			},
 			"uniqueID": 10000017
 		},
-		
 		{
 			"groupId": 17,
 			"sourceRangeMin": 0,
@@ -843,8 +804,7 @@
 			"stringParameter": null,
 			"slotColor": "Navy",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 8,
 				"indexedBehaviour": null,
 				"externalBehaviour": 8,
@@ -857,17 +817,14 @@
 			"uniqueID": 10000018
 		}
 	],
-	"bindingGroups": 
-	[
-		
+	"bindingGroups": [
 		{
 			"name": "General",
 			"expanded": true,
 			"enabled": true,
 			"slotColor": "Default",
 			"userNotes": null,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -884,15 +841,12 @@
 	"triggers": [],
 	"savedByVersion": "3.0.3558",
 	"nextUniqueID": 29,
-	"objects": 
-	[
-		
+	"objects": [
 		{
 			"kind": "InputPortProvider",
 			"transpose": 0,
 			"inputGain": 1,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -900,8 +854,7 @@
 				"resetBehaviour": 2,
 				"resetIndexedBehaviour": null,
 				"states": {},
-				"resetState": 
-				{
+				"resetState": {
 					"inputGain": 1,
 					"transpose": 0,
 					"userNotes": null,
@@ -912,17 +865,14 @@
 			"userNotes": null,
 			"nextUniqueID": 29,
 			"uniqueId": 1,
-			"routes": 
-			[
-				
+			"routes": [
 				{
 					"kind": "midiRoute",
 					"sourceChannelMask": 1,
 					"keyRangeMin": 0,
 					"keyRangeMax": 127,
 					"transpose": 0,
-					"velocityCurve": 
-					{
+					"velocityCurve": {
 						"inputMin": 0,
 						"inputMax": 127,
 						"outputMin": 0,
@@ -941,12 +891,10 @@
 					"keyRangeColor": "Auto",
 					"enableConditionCC": false,
 					"conditionCC": 0,
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					},
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -965,15 +913,13 @@
 					"targetName": "Nexus",
 					"targetPort": "MIDI In"
 				},
-				
 				{
 					"kind": "midiRoute",
 					"sourceChannelMask": 2,
 					"keyRangeMin": 0,
 					"keyRangeMax": 127,
 					"transpose": -12,
-					"velocityCurve": 
-					{
+					"velocityCurve": {
 						"inputMin": 0,
 						"inputMax": 127,
 						"outputMin": 0,
@@ -992,12 +938,10 @@
 					"keyRangeColor": "Auto",
 					"enableConditionCC": false,
 					"conditionCC": 0,
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					},
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -1016,15 +960,13 @@
 					"targetName": "Sampletank",
 					"targetPort": "MIDI In"
 				},
-				
 				{
 					"kind": "midiRoute",
 					"sourceChannelMask": 16,
 					"keyRangeMin": 0,
 					"keyRangeMax": 127,
 					"transpose": 0,
-					"velocityCurve": 
-					{
+					"velocityCurve": {
 						"inputMin": 0,
 						"inputMax": 127,
 						"outputMin": 0,
@@ -1043,12 +985,10 @@
 					"keyRangeColor": "Auto",
 					"enableConditionCC": false,
 					"conditionCC": 0,
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					},
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -1067,15 +1007,13 @@
 					"targetName": "B4",
 					"targetPort": "MIDI In"
 				},
-				
 				{
 					"kind": "midiRoute",
 					"sourceChannelMask": 32,
 					"keyRangeMin": 0,
 					"keyRangeMax": 127,
 					"transpose": 0,
-					"velocityCurve": 
-					{
+					"velocityCurve": {
 						"inputMin": 0,
 						"inputMax": 127,
 						"outputMin": 0,
@@ -1094,12 +1032,10 @@
 					"keyRangeColor": "Auto",
 					"enableConditionCC": false,
 					"conditionCC": 0,
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					},
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -1118,15 +1054,13 @@
 					"targetName": "B4",
 					"targetPort": "MIDI In"
 				},
-				
 				{
 					"kind": "midiRoute",
 					"sourceChannelMask": 256,
 					"keyRangeMin": 0,
 					"keyRangeMax": 127,
 					"transpose": 0,
-					"velocityCurve": 
-					{
+					"velocityCurve": {
 						"inputMin": 0,
 						"inputMax": 127,
 						"outputMin": 0,
@@ -1145,12 +1079,10 @@
 					"keyRangeColor": "Auto",
 					"enableConditionCC": false,
 					"conditionCC": 0,
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					},
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -1169,15 +1101,13 @@
 					"targetName": "B4",
 					"targetPort": "MIDI In"
 				},
-				
 				{
 					"kind": "midiRoute",
 					"sourceChannelMask": 512,
 					"keyRangeMin": 0,
 					"keyRangeMax": 127,
 					"transpose": 0,
-					"velocityCurve": 
-					{
+					"velocityCurve": {
 						"inputMin": 0,
 						"inputMax": 127,
 						"outputMin": 0,
@@ -1196,12 +1126,10 @@
 					"keyRangeColor": "Auto",
 					"enableConditionCC": false,
 					"conditionCC": 0,
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					},
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -1225,12 +1153,10 @@
 			"displayExpanded": true,
 			"slotColor": "Default"
 		},
-		
 		{
 			"kind": "OutputPortProvider",
 			"outputGain": 1,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -1238,8 +1164,7 @@
 				"resetBehaviour": 1,
 				"resetIndexedBehaviour": null,
 				"states": {},
-				"resetState": 
-				{
+				"resetState": {
 					"outputGain": 1,
 					"userNotes": null,
 					"slotColor": "Red",
@@ -1254,15 +1179,12 @@
 			"displayExpanded": false,
 			"slotColor": "Red"
 		},
-		
 		{
 			"kind": "MediaPlayer",
 			"selectedFile": "Hudba Praha - Mama, tata",
 			"uiSettings": {},
 			"selectedFileIndex": 0,
-			"files": 
-			[
-				
+			"files": [
 				{
 					"currentPlayRange": null,
 					"name": "Hudba Praha - Mama, tata",
@@ -1274,9 +1196,7 @@
 					"transpose": 0,
 					"ignoreGlobalTranspose": true,
 					"gain": 1,
-					"audioPortAssignments": 
-					[
-						
+					"audioPortAssignments": [
 						{
 							"portName": "Stereo Out",
 							"portChannel": "Left",
@@ -1285,7 +1205,6 @@
 							"panPlacement": "LeftBalance",
 							"fadePlacement": "None"
 						},
-						
 						{
 							"portName": "Stereo Out",
 							"portChannel": "Right",
@@ -1305,29 +1224,21 @@
 					"timeFormat": "Realtime"
 				}
 			],
-			"midiPorts": 
-			[
-				
+			"midiPorts": [
 				{
 					"MediaPlayerPortName": null,
 					"name": "MIDI Out",
-					"midiFilter": 
-					{
+					"midiFilter": {
 						"items": []
 					}
 				}
 			],
-			"audioPorts": 
-			[
-				
+			"audioPorts": [
 				{
-					"channels": 
-					[
-						
+					"channels": [
 						{
 							"name": "Left"
 						},
-						
 						{
 							"name": "Right"
 						}
@@ -1346,8 +1257,7 @@
 			"fadePosition": 1,
 			"userNotes": null,
 			"musicalTimeFormat": true,
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -1363,56 +1273,20 @@
 			"soloControl": true,
 			"nextUniqueID": 1,
 			"uniqueId": 29,
-			"routes": 
-			[
-				
+			"routes": [
 				{
 					"kind": "audioRoute",
 					"gainLevel": 1,
-					"stateManager": 
-					{
-						"behaviour": 0,
+					"stateManager": {
+						"behaviour": 1,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
 						"externalIndexedBehaviour": null,
+						"nonLinkedBehaviour": 0,
+						"nonLinkedIndexedBehaviour": null,
 						"resetBehaviour": 0,
 						"resetIndexedBehaviour": null,
-						"states": 
-						{
-							"1": 
-							{
-								"sourcePort": "Stereo Out",
-								"targetKind": "OutputPortProvider",
-								"targetName": "OutputPort",
-								"targetPort": "Master Out",
-								"enabled": true,
-								"gainLevel": 1,
-								"userNotes": null,
-								"savedBehaviour": 31
-							},
-							"2": 
-							{
-								"sourcePort": "Stereo Out",
-								"targetKind": "OutputPortProvider",
-								"targetName": "OutputPort",
-								"targetPort": "Master Out",
-								"enabled": true,
-								"gainLevel": 1,
-								"userNotes": null,
-								"savedBehaviour": 31
-							},
-							"3": 
-							{
-								"sourcePort": "Stereo Out",
-								"targetKind": "OutputPortProvider",
-								"targetName": "OutputPort",
-								"targetPort": "Master Out",
-								"enabled": true,
-								"gainLevel": 1,
-								"userNotes": null,
-								"savedBehaviour": 31
-							}
-						},
+						"states": {},
 						"resetState": null
 					},
 					"enabled": true,
@@ -1429,17 +1303,14 @@
 			"displayExpanded": false,
 			"slotColor": "Default"
 		},
-		
 		{
 			"kind": "RackHost",
 			"embeddedRack": null,
 			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\sampletank.cantabileRack",
 			"gain": 1,
 			"rackState": null,
-			"exportedRackState": 
-			{
-				"plugin.3": 
-				{
+			"exportedRackState": {
+				"plugin.3": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1465,8 +1336,7 @@
 			"primaryView": false,
 			"resetRackState": false,
 			"runMode": "Running",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 2,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -1480,14 +1350,11 @@
 			"soloControl": true,
 			"nextUniqueID": 1,
 			"uniqueId": 20,
-			"routes": 
-			[
-				
+			"routes": [
 				{
 					"kind": "audioRoute",
 					"gainLevel": 1,
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 13,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -1511,17 +1378,14 @@
 			"displayExpanded": false,
 			"slotColor": "Teal"
 		},
-		
 		{
 			"kind": "RackHost",
 			"embeddedRack": null,
 			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\b4.cantabileRack",
 			"gain": 1,
 			"rackState": null,
-			"exportedRackState": 
-			{
-				"plugin.3": 
-				{
+			"exportedRackState": {
+				"plugin.3": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1541,8 +1405,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.8": 
-				{
+				"plugin.8": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1568,8 +1431,7 @@
 			"primaryView": false,
 			"resetRackState": false,
 			"runMode": "Running",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 2,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -1583,14 +1445,11 @@
 			"soloControl": true,
 			"nextUniqueID": 1,
 			"uniqueId": 22,
-			"routes": 
-			[
-				
+			"routes": [
 				{
 					"kind": "audioRoute",
 					"gainLevel": 1,
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 13,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -1614,17 +1473,14 @@
 			"displayExpanded": false,
 			"slotColor": "Default"
 		},
-		
 		{
 			"kind": "RackHost",
 			"embeddedRack": null,
 			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\Nexus.cantabileRack",
 			"gain": 1,
 			"rackState": null,
-			"exportedRackState": 
-			{
-				"plugin.3": 
-				{
+			"exportedRackState": {
+				"plugin.3": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1644,8 +1500,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.4": 
-				{
+				"plugin.4": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1665,8 +1520,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.6": 
-				{
+				"plugin.6": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1692,8 +1546,7 @@
 			"primaryView": false,
 			"resetRackState": false,
 			"runMode": "Running",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 2,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -1707,14 +1560,11 @@
 			"soloControl": true,
 			"nextUniqueID": 1,
 			"uniqueId": 24,
-			"routes": 
-			[
-				
+			"routes": [
 				{
 					"kind": "audioRoute",
 					"gainLevel": 1,
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 13,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -1738,17 +1588,14 @@
 			"displayExpanded": false,
 			"slotColor": "Default"
 		},
-		
 		{
 			"kind": "RackHost",
 			"embeddedRack": null,
 			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\fx.cantabileRack",
 			"gain": 1,
 			"rackState": null,
-			"exportedRackState": 
-			{
-				"plugin.3": 
-				{
+			"exportedRackState": {
+				"plugin.3": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1768,8 +1615,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.4": 
-				{
+				"plugin.4": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1789,8 +1635,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.5": 
-				{
+				"plugin.5": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1810,8 +1655,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.6": 
-				{
+				"plugin.6": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1831,8 +1675,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.8": 
-				{
+				"plugin.8": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1852,8 +1695,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.9": 
-				{
+				"plugin.9": {
 					"runMode": "Running",
 					"solo": false,
 					"soloControl": true,
@@ -1873,8 +1715,7 @@
 					"morphPosition": 0,
 					"savedBehaviour": 4095
 				},
-				"plugin.8.AudioRoute.2": 
-				{
+				"plugin.8.AudioRoute.2": {
 					"sourcePort": "Stereo Out",
 					"targetKind": "OutputPortProvider",
 					"targetName": "OutputPort",
@@ -1884,8 +1725,7 @@
 					"userNotes": null,
 					"savedBehaviour": 31
 				},
-				"plugin.8.AudioRoute.1": 
-				{
+				"plugin.8.AudioRoute.1": {
 					"sourcePort": "Stereo Out",
 					"targetKind": "Plugin",
 					"targetName": "FabFilter Pro-R 1",
@@ -1901,8 +1741,7 @@
 			"primaryView": false,
 			"resetRackState": false,
 			"runMode": "Suspended",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 2,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
@@ -1916,14 +1755,11 @@
 			"soloControl": true,
 			"nextUniqueID": 1,
 			"uniqueId": 28,
-			"routes": 
-			[
-				
+			"routes": [
 				{
 					"kind": "audioRoute",
 					"gainLevel": 1,
-					"stateManager": 
-					{
+					"stateManager": {
 						"behaviour": 13,
 						"indexedBehaviour": null,
 						"externalBehaviour": 0,
@@ -1947,17 +1783,14 @@
 			"displayExpanded": false,
 			"slotColor": "Default"
 		},
-		
 		{
 			"kind": "RackHost",
 			"embeddedRack": null,
 			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\Master.cantabileRack",
 			"gain": 1,
 			"rackState": "Live",
-			"exportedRackState": 
-			{
-				"inputPorts.1": 
-				{
+			"exportedRackState": {
+				"inputPorts.1": {
 					"inputGain": 1.41801834,
 					"transpose": 0,
 					"userNotes": "NRPN 16265 (127.9) - Input Gain - to equalize songs",
@@ -1970,8 +1803,7 @@
 			"primaryView": false,
 			"resetRackState": false,
 			"runMode": "Running",
-			"stateManager": 
-			{
+			"stateManager": {
 				"behaviour": 0,
 				"indexedBehaviour": null,
 				"externalBehaviour": 0,
