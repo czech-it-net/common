@@ -1,0 +1,1397 @@
+
+{
+	"metronome": 
+	{
+		"timeSignature": "4\/4",
+		"tempo": 120,
+		"masterTransportId": "metronome",
+		"stateManager": 
+		{
+			"indexedBehaviour": null,
+			"externalIndexedBehaviour": null,
+			"states": {},
+			"behaviour": 3,
+			"externalBehaviour": 0
+		}
+	},
+	"onscreenKeyboardState": 
+	{
+		"activeOctaveA": 4,
+		"activeOctaveB": 5,
+		"stateManager": 
+		{
+			"indexedBehaviour": null,
+			"externalIndexedBehaviour": null,
+			"states": {},
+			"behaviour": 3,
+			"externalBehaviour": 0
+		}
+	},
+	"showNotes": [],
+	"currentState": null,
+	"states": [],
+	"autoSaveStates": false,
+	"bindings": [],
+	"triggers": 
+	[
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStart",
+			"uniqueID": 1,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 7,
+			"controllerValue": 90,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 0,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 200,
+			"postDelay": 0,
+			"userNotes": "Volume",
+			"slotColor": "Default",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStart",
+			"uniqueID": 2,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 7,
+			"controllerValue": 55,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 1,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Default",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStart",
+			"uniqueID": 3,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 7,
+			"controllerValue": 30,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 2,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Default",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStart",
+			"uniqueID": 4,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 7,
+			"controllerValue": 47,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 3,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Default",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStart",
+			"uniqueID": 5,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 7,
+			"controllerValue": 65,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 4,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Brown",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStart",
+			"uniqueID": 6,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 7,
+			"controllerValue": 70,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 5,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Brown",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": false,
+			"eventKind": "SongStart",
+			"uniqueID": 7,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 7,
+			"controllerValue": 65,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 6,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Brown",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": false,
+			"eventKind": "SongStart",
+			"uniqueID": 8,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 7,
+			"controllerValue": 65,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 7,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Brown",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStart",
+			"uniqueID": 9,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 7,
+			"controllerValue": 90,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 15,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": "Master Volume",
+			"slotColor": "Red",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStart",
+			"uniqueID": 10,
+			"customTriggerNumber": 0,
+			"action": "NRpnCoarse",
+			"controller": 14284,
+			"controllerValue": 45,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 15,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": "B4 Drive 14028 | 14156 | 14284",
+			"slotColor": "Default",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStateLoad",
+			"uniqueID": 11,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 102,
+			"controllerValue": 127,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 15,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": "Zones Switches",
+			"slotColor": "Navy",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStateLoad",
+			"uniqueID": 12,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 103,
+			"controllerValue": 127,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 15,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Navy",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStateLoad",
+			"uniqueID": 13,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 104,
+			"controllerValue": 0,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 15,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Navy",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStateLoad",
+			"uniqueID": 14,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 105,
+			"controllerValue": 0,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 15,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Navy",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStateLoad",
+			"uniqueID": 15,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 106,
+			"controllerValue": 0,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 15,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Navy",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStateLoad",
+			"uniqueID": 16,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 107,
+			"controllerValue": 0,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 15,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Navy",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStateLoad",
+			"uniqueID": 17,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 108,
+			"controllerValue": 0,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 15,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Navy",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 5,
+				"externalBehaviour": 0
+			}
+		},
+		
+		{
+			"enabled": true,
+			"eventKind": "SongStateLoad",
+			"uniqueID": 18,
+			"customTriggerNumber": 0,
+			"action": "Controller",
+			"controller": 109,
+			"controllerValue": 0,
+			"targetKind": "OutputPortProvider",
+			"targetName": "OutputPort",
+			"targetPort": "loop Cant CTRL",
+			"targetChannel": 15,
+			"scriptCommand": null,
+			"scriptWorkingDirectory": null,
+			"preDelay": 0,
+			"postDelay": 0,
+			"userNotes": null,
+			"slotColor": "Navy",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 4,
+				"externalBehaviour": 0
+			}
+		}
+	],
+	"savedByVersion": "3.0.3158",
+	"nextUniqueID": 29,
+	"objects": 
+	[
+		
+		{
+			"kind": "InputPortProvider",
+			"transpose": 0,
+			"inputGain": 1,
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 2,
+				"externalBehaviour": 0
+			},
+			"userNotes": null,
+			"nextUniqueID": 26,
+			"uniqueId": 1,
+			"routes": 
+			[
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 1,
+					"keyRangeMin": -1,
+					"keyRangeMax": -1,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 0,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 917,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 14,
+					"name": "1",
+					"sourcePort": "loop ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Kontakt",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 2,
+					"keyRangeMin": -1,
+					"keyRangeMax": -1,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 0,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 917,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 15,
+					"name": "2",
+					"sourcePort": "loop ZONES",
+					"targetKind": "RackHost",
+					"targetName": "FM8",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 4,
+					"keyRangeMin": -1,
+					"keyRangeMax": -1,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 0,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 917,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 16,
+					"name": "3",
+					"sourcePort": "loop ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Halion Sonic",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 8,
+					"keyRangeMin": -1,
+					"keyRangeMax": -1,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 1,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 917,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 17,
+					"name": "4",
+					"sourcePort": "loop ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Halion Sonic",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 256,
+					"keyRangeMin": -1,
+					"keyRangeMax": -1,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 0,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 917,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 25,
+					"name": "5",
+					"sourcePort": "loop ZONES",
+					"targetKind": "RackHost",
+					"targetName": "B4",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 16,
+					"keyRangeMin": -1,
+					"keyRangeMax": -1,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 1,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 917,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 23,
+					"name": "5",
+					"sourcePort": "loop ZONES",
+					"targetKind": "RackHost",
+					"targetName": "B4",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 512,
+					"keyRangeMin": -1,
+					"keyRangeMax": -1,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 2,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 917,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 26,
+					"name": "6",
+					"sourcePort": "loop ZONES",
+					"targetKind": "RackHost",
+					"targetName": "B4",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 32,
+					"keyRangeMin": -1,
+					"keyRangeMax": -1,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 3,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 917,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 24,
+					"name": "6",
+					"sourcePort": "loop ZONES",
+					"targetKind": "RackHost",
+					"targetName": "B4",
+					"targetPort": "MIDI In"
+				}
+			],
+			"name": "InputPort",
+			"displayExpanded": true,
+			"slotColor": "Default"
+		},
+		
+		{
+			"kind": "OutputPortProvider",
+			"outputGain": 1,
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 0,
+				"externalBehaviour": 0
+			},
+			"userNotes": null,
+			"nextUniqueID": 1,
+			"uniqueId": 2,
+			"routes": [],
+			"name": "OutputPort",
+			"displayExpanded": false,
+			"slotColor": "Default"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\Halion Sonic.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"rackhost.4": 
+				{
+					"runMode": "Running",
+					"selectedState": "~CC#11",
+					"outputGain": 1,
+					"exportedState": null,
+					"userNotes": null,
+					"slotColor": "Default",
+					"savedBehaviour": 63
+				},
+				"plugin.3": 
+				{
+					"runMode": "Running",
+					"audioBypass": false,
+					"selectedProgram": 2,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": null,
+					"userNotes": "supress cc11",
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"savedBehaviour": 1023
+				}
+			},
+			"RackFileRelative": "..\\Racks\\Halion Sonic.cantabileRack",
+			"userNotes": "NRPN MSB 21-37",
+			"primaryView": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 2,
+				"externalBehaviour": 0
+			},
+			"nextUniqueID": 1,
+			"uniqueId": 17,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 13,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				}
+			],
+			"name": "Halion Sonic",
+			"displayExpanded": false,
+			"slotColor": "Teal"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\kontakt.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"plugin.5": 
+				{
+					"runMode": "Running",
+					"audioBypass": false,
+					"selectedProgram": 2,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": null,
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"savedBehaviour": 1023
+				}
+			},
+			"RackFileRelative": "..\\Racks\\kontakt.cantabileRack",
+			"userNotes": "NRPN MSB 38-54",
+			"primaryView": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 2,
+				"externalBehaviour": 0
+			},
+			"nextUniqueID": 1,
+			"uniqueId": 18,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 13,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				}
+			],
+			"name": "Kontakt",
+			"displayExpanded": false,
+			"slotColor": "Teal"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\b4.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"plugin.3": 
+				{
+					"runMode": "Running",
+					"audioBypass": false,
+					"selectedProgram": 114,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": null,
+					"userNotes": "NRPN MSB 109",
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"savedBehaviour": 1023
+				},
+				"plugin.8": 
+				{
+					"runMode": "Running",
+					"audioBypass": false,
+					"selectedProgram": 108,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": null,
+					"userNotes": "NRPN MSB 110",
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"savedBehaviour": 1023
+				}
+			},
+			"RackFileRelative": "..\\Racks\\b4.cantabileRack",
+			"userNotes": "NRPN MSB 109-111 | 12back 34solo",
+			"primaryView": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 2,
+				"externalBehaviour": 0
+			},
+			"nextUniqueID": 1,
+			"uniqueId": 22,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 13,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				}
+			],
+			"name": "B4",
+			"displayExpanded": false,
+			"slotColor": "Default"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\FM8.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"plugin.3": 
+				{
+					"runMode": "Running",
+					"audioBypass": false,
+					"selectedProgram": 1,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": null,
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"savedBehaviour": 1023
+				}
+			},
+			"RackFileRelative": "..\\Racks\\FM8.cantabileRack",
+			"userNotes": "NRPN MSB 112-114",
+			"primaryView": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 2,
+				"externalBehaviour": 0
+			},
+			"nextUniqueID": 1,
+			"uniqueId": 23,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 13,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				}
+			],
+			"name": "FM8",
+			"displayExpanded": false,
+			"slotColor": "Default"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\fx.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"plugin.3": 
+				{
+					"runMode": "Running",
+					"audioBypass": false,
+					"selectedProgram": 0,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": null,
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"savedBehaviour": 1023
+				},
+				"plugin.4": 
+				{
+					"runMode": "Running",
+					"audioBypass": false,
+					"selectedProgram": 0,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": null,
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"savedBehaviour": 1023
+				}
+			},
+			"RackFileRelative": "..\\Racks\\fx.cantabileRack",
+			"userNotes": "NRPN MSB 126",
+			"primaryView": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 2,
+				"externalBehaviour": 0
+			},
+			"nextUniqueID": 1,
+			"uniqueId": 28,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 13,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				}
+			],
+			"name": "FX",
+			"displayExpanded": false,
+			"slotColor": "Default"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\Master.cantabileRack",
+			"gain": 1,
+			"rackState": "Live",
+			"exportedRackState": null,
+			"RackFileRelative": "..\\Racks\\Master.cantabileRack",
+			"userNotes": "NRPN MSB 127",
+			"primaryView": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"indexedBehaviour": null,
+				"externalIndexedBehaviour": null,
+				"states": {},
+				"behaviour": 8,
+				"externalBehaviour": 0
+			},
+			"nextUniqueID": 2,
+			"uniqueId": 12,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"indexedBehaviour": null,
+						"externalIndexedBehaviour": null,
+						"states": {},
+						"behaviour": 0,
+						"externalBehaviour": 0
+					},
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "OutputPortProvider",
+					"targetName": "OutputPort",
+					"targetPort": "Master Out"
+				}
+			],
+			"name": "Master",
+			"displayExpanded": false,
+			"slotColor": "Red"
+		}
+	],
+	"modifiedBehaviour": "SignificantChanges"
+}

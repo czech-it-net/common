@@ -1,0 +1,6793 @@
+
+{
+	"metronome": 
+	{
+		"timeSignature": "4\/4",
+		"tempo": 133,
+		"masterTransportId": "metronome",
+		"soundsGain": 1,
+		"soundsMeasureBeatBalance": 1,
+		"soundsEnabled": false,
+		"measureSoundsEnabled": true,
+		"stateManager": 
+		{
+			"behaviour": 3,
+			"indexedBehaviour": null,
+			"externalBehaviour": 0,
+			"externalIndexedBehaviour": null,
+			"resetBehaviour": 0,
+			"resetIndexedBehaviour": null,
+			"states": 
+			{
+				"3": 
+				{
+					"masterTransportId": "metronome",
+					"timeSignature": "4\/4",
+					"tempo": 133,
+					"soundsEnabled": true,
+					"measureSoundsEnabled": false,
+					"soundsGain": 0.346666664,
+					"soundsMeasureBeatBalance": 0,
+					"savedBehaviour": 15
+				},
+				"2": 
+				{
+					"masterTransportId": "metronome",
+					"timeSignature": "4\/4",
+					"tempo": 133,
+					"soundsEnabled": true,
+					"measureSoundsEnabled": false,
+					"soundsGain": 0.346666664,
+					"soundsMeasureBeatBalance": 0,
+					"savedBehaviour": 15
+				},
+				"1": 
+				{
+					"masterTransportId": "metronome",
+					"timeSignature": "4\/4",
+					"tempo": 133,
+					"soundsEnabled": true,
+					"measureSoundsEnabled": false,
+					"soundsGain": 0.346666664,
+					"soundsMeasureBeatBalance": 0,
+					"savedBehaviour": 15
+				}
+			},
+			"resetState": null
+		}
+	},
+	"onscreenKeyboardState": 
+	{
+		"activeOctaveA": 4,
+		"activeOctaveB": 5,
+		"stateManager": 
+		{
+			"behaviour": 3,
+			"indexedBehaviour": null,
+			"externalBehaviour": 0,
+			"externalIndexedBehaviour": null,
+			"resetBehaviour": 0,
+			"resetIndexedBehaviour": null,
+			"states": 
+			{
+				"3": 
+				{
+					"activeOctaveA": 4,
+					"activeOctaveB": 5,
+					"savedBehaviour": 3
+				},
+				"2": 
+				{
+					"activeOctaveA": 4,
+					"activeOctaveB": 5,
+					"savedBehaviour": 3
+				},
+				"1": 
+				{
+					"activeOctaveA": 4,
+					"activeOctaveB": 5,
+					"savedBehaviour": 3
+				}
+			},
+			"resetState": null
+		}
+	},
+	"showNotes": 
+	[
+		
+		{
+			"hidden": true,
+			"backgroundColor": "Default",
+			"textColor": "Default",
+			"alignment": "Left",
+			"text": "EXP controlled by Drop\/Rise, State change",
+			"fontSize": 32,
+			"bold": false,
+			"fixedPitch": false,
+			"imageFile": "",
+			"uniqueID": 1,
+			"imageFileRelative": "",
+			"imageScale": 1,
+			"stateManager": 
+			{
+				"behaviour": 7,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"2": 
+					{
+						"text": "EXP controlled by Drop\/Rise, State change",
+						"imageFile": "",
+						"hidden": false,
+						"backgroundColor": "Default",
+						"textColor": "Default",
+						"savedBehaviour": 15
+					},
+					"1": 
+					{
+						"text": "EXP controlled by Drop\/Rise, State change",
+						"imageFile": "",
+						"hidden": true,
+						"backgroundColor": "Default",
+						"textColor": "Default",
+						"savedBehaviour": 15
+					}
+				},
+				"resetState": null
+			}
+		}
+	],
+	"currentState": "FULL",
+	"bindings": 
+	[
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 5,
+			"targetRangeMax": 5,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.states",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:ZONES",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch8",
+			"targetMidiEventKind": "Note",
+			"targetParameter": 27,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": "EXP 127",
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "EXP 127",
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:ZONES",
+						"targetBindingPoint": "Ch8",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 5,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Note",
+						"targetParameter": 27,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "EXP 127",
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:ZONES",
+						"targetBindingPoint": "Ch8",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 5,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Note",
+						"targetParameter": 27,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "EXP 127",
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:ZONES",
+						"targetBindingPoint": "Ch8",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 5,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Note",
+						"targetParameter": 27,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 1
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 127,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 1.99526227,
+			"targetTangeMax": 1,
+			"targetRangeMax": 1,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "InputPortProvider.InputPort.midiSource.Merge CONTROL",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "Ch16",
+			"sourceMidiEventKind": "Controller",
+			"sourceController": 11,
+			"targetObject": "rackhost.Nexus",
+			"targetIndicies": null,
+			"targetBindingPointName": "gain",
+			"targetMidiEventKind": "None",
+			"targetParameter": 0,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": "Nexus up for REF",
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "Nexus up for REF",
+						"slotColor": "Default",
+						"targetObject": "rackhost.Nexus",
+						"targetBindingPoint": "gain",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 1.99526227,
+						"targetRangeMax": 1,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "None",
+						"targetParameter": 0,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "Nexus up for REF",
+						"slotColor": "Default",
+						"targetObject": "rackhost.Nexus",
+						"targetBindingPoint": "gain",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 1.99526227,
+						"targetRangeMax": 1,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "None",
+						"targetParameter": 0,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "Nexus up for REF",
+						"slotColor": "Default",
+						"targetObject": "rackhost.Nexus",
+						"targetBindingPoint": "gain",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 1.99526227,
+						"targetRangeMax": 1,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "None",
+						"targetParameter": 0,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 2
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 127,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 0,
+			"targetRangeMax": 0,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "InputPortProvider.InputPort.midiSource.Merge CONTROL",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "Ch16",
+			"sourceMidiEventKind": "NRpnCoarse",
+			"sourceController": 16267,
+			"targetObject": "global.metronome",
+			"targetIndicies": null,
+			"targetBindingPointName": "tapTempoDirect",
+			"targetMidiEventKind": "None",
+			"targetParameter": 0,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "global.metronome",
+						"targetBindingPoint": "tapTempoDirect",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "None",
+						"targetParameter": 0,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "global.metronome",
+						"targetBindingPoint": "tapTempoDirect",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "None",
+						"targetParameter": 0,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "global.metronome",
+						"targetBindingPoint": "tapTempoDirect",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "None",
+						"targetParameter": 0,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 4
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 66,
+			"targetRangeMax": 66,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.songLevels",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch1",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 7,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 3000,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": "Volume",
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "Volume",
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch1",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 66,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 3000,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "Volume",
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch1",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 66,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 3000,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "Volume",
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch1",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 66,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 3000,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000001
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 48,
+			"targetRangeMax": 48,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.songLevels",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch2",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 7,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch2",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 48,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch2",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 48,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch2",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 48,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000002
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 45,
+			"targetRangeMax": 45,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.songLevels",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch3",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 7,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch3",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 45,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch3",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 45,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch3",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 45,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000003
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 45,
+			"targetRangeMax": 45,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.songLevels",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch4",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 7,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch4",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 45,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch4",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 45,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch4",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 45,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000004
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 30,
+			"targetRangeMax": 30,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.songLevels",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch5",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 7,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch5",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 30,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch5",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 30,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch5",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 30,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000005
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 100,
+			"targetRangeMax": 100,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.songLevels",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch6",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 7,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch6",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 100,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch6",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 100,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch6",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 100,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000006
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 15,
+			"targetRangeMax": 15,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.songLevels",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch7",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 7,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch7",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 15,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch7",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 15,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch7",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 15,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000007
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 80,
+			"targetRangeMax": 80,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.songLevels",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch8",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 7,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch8",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 80,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch8",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 80,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch8",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 80,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 7,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000008
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 45,
+			"targetRangeMax": 45,
+			"routingMode": "Continue",
+			"enabled": false,
+			"sourceObject": "global.songLevels",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch16",
+			"targetMidiEventKind": "NRpnCoarse",
+			"targetParameter": 14284,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Default",
+			"userNotes": "B4 Drive 14028 | 14156 | 14284",
+			"stateManager": 
+			{
+				"behaviour": 9,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": false,
+						"userNotes": "B4 Drive 14028 | 14156 | 14284",
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 45,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "NRpnCoarse",
+						"targetParameter": 14284,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": false,
+						"userNotes": "B4 Drive 14028 | 14156 | 14284",
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 45,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "NRpnCoarse",
+						"targetParameter": 14284,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": false,
+						"userNotes": "B4 Drive 14028 | 14156 | 14284",
+						"slotColor": "Default",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 45,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "NRpnCoarse",
+						"targetParameter": 14284,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000010
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 127,
+			"targetRangeMax": 127,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.states",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch16",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 102,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Navy",
+			"userNotes": "Zones Switches",
+			"stateManager": 
+			{
+				"behaviour": 9,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "Zones Switches",
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 102,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "Zones Switches",
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 102,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": "Zones Switches",
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 102,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000011
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 127,
+			"targetRangeMax": 127,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.states",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch16",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 103,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Navy",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 9,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 103,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 103,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 103,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000012
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 127,
+			"targetRangeMax": 127,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.states",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch16",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 104,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Navy",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 9,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 104,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 104,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 104,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000013
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 127,
+			"targetRangeMax": 127,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.states",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch16",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 105,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Navy",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 9,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 105,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 105,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 105,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000014
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 127,
+			"targetRangeMax": 127,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.states",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch16",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 106,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Navy",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 9,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 106,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 106,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 106,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000015
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 0,
+			"targetRangeMax": 0,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.states",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch16",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 107,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Navy",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 9,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 107,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 107,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 107,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000016
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 0,
+			"targetRangeMax": 0,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.states",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch16",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 108,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Navy",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 9,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 108,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 108,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 0,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 108,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000017
+		},
+		
+		{
+			"groupId": 26,
+			"sourceRangeMin": 0,
+			"sourceRangeMax": 0,
+			"outOfRangeMode": "Clamp",
+			"curveKind": "None",
+			"curveAmount": 0,
+			"targetSequence": null,
+			"targetRangeMin": 0,
+			"targetTangeMax": 127,
+			"targetRangeMax": 127,
+			"routingMode": "Continue",
+			"enabled": true,
+			"sourceObject": "global.states",
+			"sourceParameter": null,
+			"sourceIndicies": null,
+			"sourceBindingPointName": "triggerLoad",
+			"sourceMidiEventKind": "None",
+			"sourceController": 0,
+			"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+			"targetIndicies": null,
+			"targetBindingPointName": "Ch16",
+			"targetMidiEventKind": "Controller",
+			"targetParameter": 109,
+			"latchMode": "Toggle",
+			"switchMode": "Normal",
+			"controllerEncoding": "Absolute",
+			"relativeScaling": 1,
+			"preDelay": 0,
+			"postDelay": 0,
+			"blockingDelay": true,
+			"stringParameter": null,
+			"slotColor": "Navy",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 8,
+				"indexedBehaviour": null,
+				"externalBehaviour": 8,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 109,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"2": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 109,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					},
+					"3": 
+					{
+						"version": 2,
+						"enabled": true,
+						"userNotes": null,
+						"slotColor": "Navy",
+						"targetObject": "OutputPortProvider.OutputPort.midiTarget.loopback:INT CONTROL",
+						"targetBindingPoint": "Ch16",
+						"latchMode": "Toggle",
+						"switchMode": "Normal",
+						"targetRangeMin": 0,
+						"targetRangeMax": 127,
+						"targetSequence": null,
+						"curveKind": "None",
+						"curveAmount": 0,
+						"targetMidiEventKind": "Controller",
+						"targetParameter": 109,
+						"targetIndicies": null,
+						"stringParameter": null,
+						"preDelay": 0,
+						"postDelay": 0,
+						"blockingDelay": true,
+						"savedBehaviour": 63
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 10000018
+		}
+	],
+	"bindingGroups": 
+	[
+		
+		{
+			"name": "General",
+			"expanded": true,
+			"enabled": true,
+			"slotColor": "Default",
+			"userNotes": null,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"3": 
+					{
+						"enabled": true,
+						"slotColor": "Default",
+						"userNotes": null,
+						"savedBehaviour": 7
+					},
+					"1": 
+					{
+						"enabled": true,
+						"slotColor": "Default",
+						"userNotes": null,
+						"savedBehaviour": 7
+					},
+					"2": 
+					{
+						"enabled": true,
+						"slotColor": "Default",
+						"userNotes": null,
+						"savedBehaviour": 7
+					}
+				},
+				"resetState": null
+			},
+			"uniqueID": 26
+		}
+	],
+	"states": 
+	[
+		
+		{
+			"id": 1,
+			"name": "FULL",
+			"locked": false,
+			"resetOnLoad": false,
+			"bankedProgramNumber": 0,
+			"color": "Default"
+		},
+		
+		{
+			"id": 2,
+			"name": "Pno+Pad",
+			"locked": false,
+			"resetOnLoad": false,
+			"bankedProgramNumber": 1,
+			"color": "Default"
+		},
+		
+		{
+			"id": 3,
+			"name": "Str",
+			"locked": false,
+			"resetOnLoad": false,
+			"bankedProgramNumber": 2,
+			"color": "Default"
+		}
+	],
+	"triggers": [],
+	"viewAsRoutingDiagram": false,
+	"showPortsInRoutingDiagram": true,
+	"savedByVersion": "3.0.3590",
+	"nextUniqueID": 32,
+	"objects": 
+	[
+		
+		{
+			"kind": "InputPortProvider",
+			"transpose": 0,
+			"inputGain": 1,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 2,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"inputGain": 1,
+						"transpose": 0,
+						"userNotes": null,
+						"slotColor": "Default",
+						"savedBehaviour": 15
+					},
+					"2": 
+					{
+						"inputGain": 1,
+						"transpose": 0,
+						"userNotes": null,
+						"slotColor": "Default",
+						"savedBehaviour": 15
+					},
+					"3": 
+					{
+						"inputGain": 1,
+						"transpose": 0,
+						"userNotes": null,
+						"slotColor": "Default",
+						"savedBehaviour": 15
+					}
+				},
+				"resetState": 
+				{
+					"inputGain": 1,
+					"transpose": 0,
+					"userNotes": null,
+					"slotColor": "Default",
+					"savedBehaviour": 4095
+				}
+			},
+			"userNotes": null,
+			"portWiringPositions": 
+			{
+				"MIDI.EXT Key CONTROL": 1475,
+				"MIDI.FB -> EXT Keyboard": 1625,
+				"MIDI.INT CONTROL": 1775,
+				"MIDI.Keys": 1925,
+				"MIDI.Merge CONTROL": 125,
+				"MIDI.Onscreen Key": 2075,
+				"MIDI.ZONES": 275,
+				"Audio.Moni In": 2225,
+				"Audio.Physis In": 2375
+			},
+			"wiringPositionX": 150,
+			"wiringPositionY": 0,
+			"nextUniqueID": 38,
+			"uniqueId": 1,
+			"routes": 
+			[
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 1,
+					"keyRangeMin": 32,
+					"keyRangeMax": 127,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 70,
+						"inputMax": 127,
+						"outputMin": 30,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": -0.6126
+					},
+					"targetChannel": 0,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"behaviour": 1,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Nexus",
+								"targetPort": "MIDI In - All CCs",
+								"enabled": true,
+								"sourceChannelMask": 1,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 70,
+									"inputMax": 127,
+									"outputMin": 30,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": -0.6126
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Nexus",
+								"targetPort": "MIDI In - All CCs",
+								"enabled": true,
+								"sourceChannelMask": 1,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 70,
+									"inputMax": 127,
+									"outputMin": 30,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": -0.6126
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Nexus",
+								"targetPort": "MIDI In - All CCs",
+								"enabled": false,
+								"sourceChannelMask": 1,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 70,
+									"inputMax": 127,
+									"outputMin": 30,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": -0.6126
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 27,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Nexus",
+					"targetPort": "MIDI In - All CCs"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 2,
+					"keyRangeMin": 32,
+					"keyRangeMax": 127,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 1,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"behaviour": 1,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Nexus",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 2,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Nexus",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 2,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Nexus",
+								"targetPort": "MIDI In",
+								"enabled": false,
+								"sourceChannelMask": 2,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 24,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Nexus",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 4,
+					"keyRangeMin": 32,
+					"keyRangeMax": 127,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 2,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"behaviour": 1,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Nexus",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 4,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 2,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Nexus",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 4,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 2,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Nexus",
+								"targetPort": "MIDI In",
+								"enabled": false,
+								"sourceChannelMask": 4,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 2,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 16,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Nexus",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 8,
+					"keyRangeMin": 32,
+					"keyRangeMax": 127,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 0,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"behaviour": 1,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Korg M1",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 8,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Korg M1",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 8,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Korg M1",
+								"targetPort": "MIDI In",
+								"enabled": false,
+								"sourceChannelMask": 8,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 28,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Korg M1",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 16,
+					"keyRangeMin": 76,
+					"keyRangeMax": 127,
+					"transpose": 12,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 0,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 100,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": true,
+					"conditionCC": 11,
+					"midiFilter": 
+					{
+						"items": 
+						[
+							
+							{
+								"type": "SuppressEvents",
+								"channelMask": 65535,
+								"eventMask": 36,
+								"allowControllers": false,
+								"suppressMidiClockEvents": false,
+								"controllers": "11,64,66",
+								"allowNotes": false,
+								"notes": "",
+								"enabled": true
+							},
+							
+							{
+								"type": "VelocityGate",
+								"channelMask": 65535,
+								"velocityMin": 115,
+								"velocityMax": 127,
+								"newChannel": -1,
+								"velocityDelta": 0,
+								"notesOnly": false,
+								"suppressOutOfRangeNotes": true,
+								"passthroughOriginalEvent": false,
+								"enabled": true
+							}
+						]
+					},
+					"stateManager": 
+					{
+						"behaviour": 1,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Diva",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 16,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 76,
+								"keyRangeMax": 127,
+								"transpose": 12,
+								"targetChannel": 0,
+								"enableConditionCC": true,
+								"conditionCC": 11,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 100,
+								"userNotes": "~11,66,64",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Diva",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 16,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 76,
+								"keyRangeMax": 127,
+								"transpose": 12,
+								"targetChannel": 0,
+								"enableConditionCC": true,
+								"conditionCC": 11,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 100,
+								"userNotes": "~11,66,64",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Diva",
+								"targetPort": "MIDI In",
+								"enabled": false,
+								"sourceChannelMask": 16,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 76,
+								"keyRangeMax": 127,
+								"transpose": 12,
+								"targetChannel": 0,
+								"enableConditionCC": true,
+								"conditionCC": 11,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 100,
+								"userNotes": "~11,66,64",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": "~11,66,64",
+					"uniqueID": 31,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Diva",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 256,
+					"keyRangeMin": 0,
+					"keyRangeMax": 127,
+					"transpose": 24,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 0,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": 
+						[
+							
+							{
+								"type": "SuppressEvents",
+								"channelMask": 65535,
+								"eventMask": 0,
+								"allowControllers": false,
+								"suppressMidiClockEvents": false,
+								"controllers": "11,64,66",
+								"allowNotes": false,
+								"notes": "",
+								"enabled": true
+							}
+						]
+					},
+					"stateManager": 
+					{
+						"behaviour": 1,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Diva",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 256,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 0,
+								"keyRangeMax": 127,
+								"transpose": 24,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "~11,66,64",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Diva",
+								"targetPort": "MIDI In",
+								"enabled": false,
+								"sourceChannelMask": 256,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 0,
+								"keyRangeMax": 127,
+								"transpose": 24,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "~11,66,64",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Diva",
+								"targetPort": "MIDI In",
+								"enabled": false,
+								"sourceChannelMask": 256,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 0,
+								"keyRangeMax": 127,
+								"transpose": 24,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "~11,66,64",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": "~11,66,64",
+					"uniqueID": 29,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Diva",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 544,
+					"keyRangeMin": 32,
+					"keyRangeMax": 127,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": -0.5494
+					},
+					"targetChannel": 0,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"behaviour": 1,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Halion Sonic",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 544,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": -0.5494
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Halion Sonic",
+								"targetPort": "MIDI In",
+								"enabled": false,
+								"sourceChannelMask": 544,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": -0.5494
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Halion Sonic",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 544,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": null,
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": -0.5494
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 30,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Halion Sonic",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 1088,
+					"keyRangeMin": 32,
+					"keyRangeMax": 127,
+					"transpose": 12,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 1,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": 
+						[
+							
+							{
+								"type": "SuppressEvents",
+								"channelMask": 65535,
+								"eventMask": 36,
+								"allowControllers": false,
+								"suppressMidiClockEvents": false,
+								"controllers": "11,64,66",
+								"allowNotes": false,
+								"notes": "",
+								"enabled": true
+							}
+						]
+					},
+					"stateManager": 
+					{
+						"behaviour": 1,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Diva",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 1088,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 12,
+								"targetChannel": 1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "~11,66,64",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Diva",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 1088,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 12,
+								"targetChannel": 1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "~11,66,64",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Diva",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 1088,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 32,
+								"keyRangeMax": 127,
+								"transpose": 12,
+								"targetChannel": 1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "~11,66,64",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": "~11,66,64",
+					"uniqueID": 32,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Diva",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 128,
+					"keyRangeMin": 28,
+					"keyRangeMax": 28,
+					"transpose": 32,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 0,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": []
+					},
+					"stateManager": 
+					{
+						"behaviour": 1,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Kontakt",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 128,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 28,
+								"keyRangeMax": 28,
+								"transpose": 32,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "Sampl",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Kontakt",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 128,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 28,
+								"keyRangeMax": 28,
+								"transpose": 32,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "Sampl",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Kontakt",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 128,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 28,
+								"keyRangeMax": 28,
+								"transpose": 32,
+								"targetChannel": 0,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "Sampl",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": "Sampl",
+					"uniqueID": 35,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Kontakt",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 128,
+					"keyRangeMin": 28,
+					"keyRangeMax": 28,
+					"transpose": 32,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 1,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": 
+						[
+							
+							{
+								"type": "VelocityGate",
+								"channelMask": 65535,
+								"velocityMin": 0,
+								"velocityMax": 100,
+								"newChannel": -1,
+								"velocityDelta": 100,
+								"notesOnly": false,
+								"suppressOutOfRangeNotes": true,
+								"passthroughOriginalEvent": false,
+								"enabled": true
+							}
+						]
+					},
+					"stateManager": 
+					{
+						"behaviour": 1,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Kontakt",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 128,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 28,
+								"keyRangeMax": 28,
+								"transpose": 32,
+								"targetChannel": 1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "Drop - Vel Gate 100",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Kontakt",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 128,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 28,
+								"keyRangeMax": 28,
+								"transpose": 32,
+								"targetChannel": 1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "Drop - Vel Gate 100",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Kontakt",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 128,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 28,
+								"keyRangeMax": 28,
+								"transpose": 32,
+								"targetChannel": 1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "Drop - Vel Gate 100",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": "Drop - Vel Gate 100",
+					"uniqueID": 36,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Kontakt",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 128,
+					"keyRangeMin": 28,
+					"keyRangeMax": 28,
+					"transpose": 32,
+					"velocityCurve": 
+					{
+						"inputMin": 64,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": 2,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": 
+						[
+							
+							{
+								"type": "VelocityGate",
+								"channelMask": 65535,
+								"velocityMin": 101,
+								"velocityMax": 127,
+								"newChannel": -1,
+								"velocityDelta": 100,
+								"notesOnly": false,
+								"suppressOutOfRangeNotes": true,
+								"passthroughOriginalEvent": false,
+								"enabled": true
+							}
+						]
+					},
+					"stateManager": 
+					{
+						"behaviour": 1,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Kontakt",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 128,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 28,
+								"keyRangeMax": 28,
+								"transpose": 32,
+								"targetChannel": 2,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "Rise - Vel Gate 101+",
+								"velocityCurve": 
+								{
+									"inputMin": 64,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Kontakt",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 128,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 28,
+								"keyRangeMax": 28,
+								"transpose": 32,
+								"targetChannel": 2,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "Rise - Vel Gate 101+",
+								"velocityCurve": 
+								{
+									"inputMin": 64,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "RackHost",
+								"targetName": "Kontakt",
+								"targetPort": "MIDI In",
+								"enabled": true,
+								"sourceChannelMask": 128,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 28,
+								"keyRangeMax": 28,
+								"transpose": 32,
+								"targetChannel": 2,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "Rise - Vel Gate 101+",
+								"velocityCurve": 
+								{
+									"inputMin": 64,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": "Rise - Vel Gate 101+",
+					"uniqueID": 34,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "RackHost",
+					"targetName": "Kontakt",
+					"targetPort": "MIDI In"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 32768,
+					"keyRangeMin": 0,
+					"keyRangeMax": 127,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": -1,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": 
+						[
+							
+							{
+								"type": "CCLatch",
+								"channelMask": 65535,
+								"sourceController": 36,
+								"targetController": 35,
+								"targetValues": "1,2",
+								"edgeTriggered": false,
+								"enabled": true
+							},
+							
+							{
+								"type": "SuppressEvents",
+								"channelMask": 65535,
+								"eventMask": 116,
+								"allowControllers": true,
+								"suppressMidiClockEvents": false,
+								"controllers": "35",
+								"allowNotes": true,
+								"notes": "",
+								"enabled": true
+							}
+						]
+					},
+					"stateManager": 
+					{
+						"behaviour": 0,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "Merge CONTROL",
+								"targetKind": "OutputPortProvider",
+								"targetName": "OutputPort",
+								"targetPort": "loopback:INT CONTROL",
+								"enabled": true,
+								"sourceChannelMask": 32768,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 0,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": -1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "CC36 Scene Pedal -> CC35 Latch State Sw",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"2": 
+							{
+								"sourcePort": "Merge CONTROL",
+								"targetKind": "OutputPortProvider",
+								"targetName": "OutputPort",
+								"targetPort": "loopback:INT CONTROL",
+								"enabled": true,
+								"sourceChannelMask": 32768,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 0,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": -1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "CC36 Scene Pedal -> CC35 Latch State Sw",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "Merge CONTROL",
+								"targetKind": "OutputPortProvider",
+								"targetName": "OutputPort",
+								"targetPort": "loopback:INT CONTROL",
+								"enabled": true,
+								"sourceChannelMask": 32768,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 0,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": -1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "CC36 Scene Pedal -> CC35 Latch State Sw",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": "CC36 Scene Pedal -> CC35 Latch State Sw",
+					"uniqueID": 26,
+					"name": null,
+					"sourcePort": "Merge CONTROL",
+					"targetKind": "OutputPortProvider",
+					"targetName": "OutputPort",
+					"targetPort": "loopback:INT CONTROL"
+				},
+				
+				{
+					"kind": "midiRoute",
+					"sourceChannelMask": 65535,
+					"keyRangeMin": 0,
+					"keyRangeMax": 127,
+					"transpose": 0,
+					"velocityCurve": 
+					{
+						"inputMin": 0,
+						"inputMax": 127,
+						"outputMin": 0,
+						"outputMax": 127,
+						"curveKind": "ExpandCompress",
+						"curveAmount": 0
+					},
+					"targetChannel": -1,
+					"conditionOperator": "GreaterThanOrEqual",
+					"conditionValue": 64,
+					"notesOnly": false,
+					"enableSourceProgramNumber": false,
+					"sourceProgramNumber": 8421376,
+					"ignoreSharedTranspose": false,
+					"showKeyRange": false,
+					"keyRangeColor": "Auto",
+					"enableConditionCC": false,
+					"conditionCC": 0,
+					"midiFilter": 
+					{
+						"items": 
+						[
+							
+							{
+								"type": "SuppressEvents",
+								"channelMask": 65535,
+								"eventMask": 116,
+								"allowControllers": true,
+								"suppressMidiClockEvents": false,
+								"controllers": "",
+								"allowNotes": true,
+								"notes": "D#0-E0",
+								"enabled": true
+							},
+							
+							{
+								"type": "NoteAsController",
+								"channelMask": 128,
+								"mode": "Variable",
+								"modifierController": -1,
+								"noteMin": 27,
+								"noteMax": 28,
+								"targetController": 11,
+								"targetChannel": -1,
+								"minValue": 127,
+								"maxValue": 0,
+								"enabled": true
+							},
+							
+							{
+								"type": "SuppressEvents",
+								"channelMask": 65535,
+								"eventMask": 0,
+								"allowControllers": true,
+								"suppressMidiClockEvents": false,
+								"controllers": "11",
+								"allowNotes": true,
+								"notes": "",
+								"enabled": true
+							},
+							
+							{
+								"type": "ChannelMap",
+								"sourceChannels": 128,
+								"targetChannels": 255,
+								"enabled": true
+							}
+						]
+					},
+					"stateManager": 
+					{
+						"behaviour": 0,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"2": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "OutputPortProvider",
+								"targetName": "OutputPort",
+								"targetPort": "loopback:Keys",
+								"enabled": true,
+								"sourceChannelMask": 65535,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 0,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": -1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "E0 -> EXP Dn 0 (drop\/rise to low pedal)",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"1": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "OutputPortProvider",
+								"targetName": "OutputPort",
+								"targetPort": "loopback:Keys",
+								"enabled": true,
+								"sourceChannelMask": 65535,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 0,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": -1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "E0 -> EXP Dn 0 (drop\/rise to low pedal)",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							},
+							"3": 
+							{
+								"sourcePort": "ZONES",
+								"targetKind": "OutputPortProvider",
+								"targetName": "OutputPort",
+								"targetPort": "loopback:Keys",
+								"enabled": true,
+								"sourceChannelMask": 65535,
+								"enableSourceProgramNumber": false,
+								"sourceProgramNumber": 8421376,
+								"keyRangeMin": 0,
+								"keyRangeMax": 127,
+								"transpose": 0,
+								"targetChannel": -1,
+								"enableConditionCC": false,
+								"conditionCC": 0,
+								"conditionOperator": "GreaterThanOrEqual",
+								"conditionValue": 64,
+								"userNotes": "E0 -> EXP Dn 0 (drop\/rise to low pedal)",
+								"velocityCurve": 
+								{
+									"inputMin": 0,
+									"inputMax": 127,
+									"outputMin": 0,
+									"outputMax": 127,
+									"curveKind": "ExpandCompress",
+									"curveAmount": 0
+								},
+								"showKeyRange": false,
+								"keyRangeColor": "Auto",
+								"notesOnly": false,
+								"savedBehaviour": 8191
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": "E0 -> EXP Dn 0 (drop\/rise to low pedal)",
+					"uniqueID": 37,
+					"name": null,
+					"sourcePort": "ZONES",
+					"targetKind": "OutputPortProvider",
+					"targetName": "OutputPort",
+					"targetPort": "loopback:Keys"
+				}
+			],
+			"name": "InputPort",
+			"displayExpanded": true,
+			"slotColor": "Default"
+		},
+		
+		{
+			"kind": "OutputPortProvider",
+			"outputGain": 0.998921454,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 1,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"outputGain": 0.998921454,
+						"userNotes": null,
+						"slotColor": "Red",
+						"savedBehaviour": 7
+					},
+					"2": 
+					{
+						"outputGain": 0.998921454,
+						"userNotes": null,
+						"slotColor": "Red",
+						"savedBehaviour": 7
+					},
+					"3": 
+					{
+						"outputGain": 0.998921454,
+						"userNotes": null,
+						"slotColor": "Red",
+						"savedBehaviour": 7
+					}
+				},
+				"resetState": 
+				{
+					"outputGain": 0.998921454,
+					"userNotes": null,
+					"slotColor": "Default",
+					"savedBehaviour": 4095
+				}
+			},
+			"userNotes": null,
+			"portWiringPositions": 
+			{
+				"MIDI.Dummy": 1475,
+				"MIDI.Physis": 1625,
+				"MIDI.scarlet": 1775,
+				"MIDI.loopback:EXT Key CONTROL": 1925,
+				"MIDI.loopback:FB -> EXT Keyboard": 2075,
+				"MIDI.loopback:INT CONTROL": 125,
+				"MIDI.loopback:Keys": 275,
+				"MIDI.loopback:Merge CONTROL": 2225,
+				"MIDI.loopback:Onscreen Key": 2375,
+				"MIDI.loopback:ZONES": 2525,
+				"Audio.FOH Out": 2675,
+				"Audio.Metronome": 2825,
+				"Audio.Moni Out": 2975,
+				"Audio.loopback:Moni In": 3125,
+				"Audio.loopback:Physis In": 3275
+			},
+			"wiringPositionX": 150,
+			"wiringPositionY": 0,
+			"nextUniqueID": 1,
+			"uniqueId": 2,
+			"routes": [],
+			"name": "OutputPort",
+			"displayExpanded": false,
+			"slotColor": "Red"
+		},
+		
+		{
+			"kind": "MediaPlayer",
+			"selectedFile": "ANETTA - Naplno",
+			"uiSettings": {},
+			"selectedFileIndex": 0,
+			"files": 
+			[
+				
+				{
+					"currentPlayRange": "Temporary Range",
+					"name": "ANETTA - Naplno",
+					"filename": "D:\\_mp3\\Anetta\\ANETTA - Naplno.mp3",
+					"relativeFilename": "D:\\_mp3\\Anetta\\ANETTA - Naplno.mp3",
+					"tempo": 133,
+					"timeSignature": "4\/4",
+					"speed": 1,
+					"transpose": 0,
+					"ignoreGlobalTranspose": true,
+					"gain": 1,
+					"audioPortAssignments": 
+					[
+						
+						{
+							"portName": "Stereo Out",
+							"portChannel": "Left",
+							"sourceChannel": 0,
+							"mixLevel": 1,
+							"panPlacement": "LeftBalance",
+							"fadePlacement": "None"
+						},
+						
+						{
+							"portName": "Stereo Out",
+							"portChannel": "Right",
+							"sourceChannel": 1,
+							"mixLevel": 1,
+							"panPlacement": "RightBalance",
+							"fadePlacement": "None"
+						}
+					],
+					"midiPortAssignments": null,
+					"playRanges": 
+					[
+						
+						{
+							"temporary": true,
+							"name": "Temporary Range",
+							"startPosition": 257014,
+							"endPosition": 10411823,
+							"viewStartPosition": 0,
+							"viewEndPosition": 10411823,
+							"loopCount": 1
+						}
+					],
+					"startPosition": 257014,
+					"endPosition": 10411823,
+					"viewStartPosition": 0,
+					"viewEndPosition": 10411823,
+					"loopCount": 1,
+					"timeFormat": "Realtime"
+				}
+			],
+			"midiPorts": 
+			[
+				
+				{
+					"MediaPlayerPortName": null,
+					"name": "MIDI Out",
+					"midiFilter": 
+					{
+						"items": []
+					}
+				}
+			],
+			"audioPorts": 
+			[
+				
+				{
+					"channels": 
+					[
+						
+						{
+							"name": "Left"
+						},
+						
+						{
+							"name": "Right"
+						}
+					],
+					"aliases": null,
+					"enabled": true,
+					"default": false,
+					"showInMonitor": true,
+					"includeInMasterIndicator": true,
+					"name": "Stereo Out"
+				}
+			],
+			"gain": 0.326440573,
+			"speed": 1,
+			"panPosition": 0,
+			"fadePosition": 1,
+			"userNotes": null,
+			"musicalTimeFormat": true,
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"selectedFileName": "ANETTA - Naplno",
+						"selectedFilePlayRange": "Temporary Range",
+						"solo": false,
+						"soloControl": true,
+						"gainLevel": 0.326440573,
+						"speed": 1,
+						"panPosition": 0,
+						"fadePosition": 1,
+						"userNotes": null,
+						"slotColor": "Default",
+						"syncMode": "None",
+						"savedBehaviour": 1023
+					},
+					"2": 
+					{
+						"selectedFileName": "ANETTA - Naplno",
+						"selectedFilePlayRange": "Temporary Range",
+						"solo": false,
+						"soloControl": true,
+						"gainLevel": 0.326440573,
+						"speed": 1,
+						"panPosition": 0,
+						"fadePosition": 1,
+						"userNotes": null,
+						"slotColor": "Default",
+						"syncMode": "None",
+						"savedBehaviour": 1023
+					},
+					"3": 
+					{
+						"selectedFileName": "ANETTA - Naplno",
+						"selectedFilePlayRange": "Temporary Range",
+						"solo": false,
+						"soloControl": true,
+						"gainLevel": 0.326440573,
+						"speed": 1,
+						"panPosition": 0,
+						"fadePosition": 1,
+						"userNotes": null,
+						"slotColor": "Default",
+						"syncMode": "None",
+						"savedBehaviour": 1023
+					}
+				},
+				"resetState": null
+			},
+			"resendControllers": false,
+			"syncMode": "None",
+			"solo": false,
+			"soloControl": true,
+			"wiringPositionX": 375,
+			"wiringPositionY": 1175,
+			"nextUniqueID": 1,
+			"uniqueId": 30,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"behaviour": 0,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In Playback song",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"2": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In Playback song",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"3": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In Playback song",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In Playback song"
+				}
+			],
+			"name": "Media Player 1",
+			"displayExpanded": false,
+			"slotColor": "Default"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\Halion Sonic.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"rackhost.5": 
+				{
+					"runMode": "Running",
+					"selectedState": "~CC#11",
+					"resetRackState": false,
+					"outputGain": 1,
+					"exportedState": null,
+					"userNotes": null,
+					"slotColor": "Default",
+					"solo": false,
+					"soloControl": true,
+					"savedBehaviour": 511
+				},
+				"plugin.3": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 20,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": "supress cc11",
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				}
+			},
+			"RackFileRelative": "..\\Racks\\Halion Sonic.cantabileRack",
+			"userNotes": "NRPN MSB 21-37",
+			"primaryView": false,
+			"resetRackState": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 21-37",
+						"slotColor": "Teal",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"2": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 21-37",
+						"slotColor": "Teal",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"3": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 21-37",
+						"slotColor": "Teal",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					}
+				},
+				"resetState": null
+			},
+			"solo": false,
+			"soloControl": true,
+			"wiringPositionX": 375,
+			"wiringPositionY": 575,
+			"nextUniqueID": 1,
+			"uniqueId": 17,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"behaviour": 13,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"2": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"3": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				}
+			],
+			"name": "Halion Sonic",
+			"displayExpanded": false,
+			"slotColor": "Teal"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\kontakt.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"plugin.5": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 23,
+					"gainLevel": 0.9979341,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				},
+				"plugin.6": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 0,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				}
+			},
+			"RackFileRelative": "..\\Racks\\kontakt.cantabileRack",
+			"userNotes": "NRPN MSB 38-54",
+			"primaryView": false,
+			"resetRackState": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 38-54",
+						"slotColor": "Teal",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"2": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 38-54",
+						"slotColor": "Teal",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"3": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 38-54",
+						"slotColor": "Teal",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					}
+				},
+				"resetState": null
+			},
+			"solo": false,
+			"soloControl": true,
+			"wiringPositionX": 375,
+			"wiringPositionY": 725,
+			"nextUniqueID": 1,
+			"uniqueId": 32,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"behaviour": 0,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"2": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"3": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				}
+			],
+			"name": "Kontakt",
+			"displayExpanded": false,
+			"slotColor": "Teal"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\Korg M1.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"plugin.3": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 28,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				}
+			},
+			"RackFileRelative": "..\\Racks\\Korg M1.cantabileRack",
+			"userNotes": "NRPN MSB 89-105",
+			"primaryView": false,
+			"resetRackState": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 89-105",
+						"slotColor": "Teal",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"2": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 89-105",
+						"slotColor": "Teal",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"3": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 89-105",
+						"slotColor": "Teal",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					}
+				},
+				"resetState": null
+			},
+			"solo": false,
+			"soloControl": true,
+			"wiringPositionX": 375,
+			"wiringPositionY": 875,
+			"nextUniqueID": 1,
+			"uniqueId": 25,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"behaviour": 13,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"2": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"3": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				}
+			],
+			"name": "Korg M1",
+			"displayExpanded": false,
+			"slotColor": "Teal"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\Nexus.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"plugin.3": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 26,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": "CC7 -> CC9",
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				},
+				"plugin.4": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 27,
+					"gainLevel": 0.995497167,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": "CC7 -> CC9",
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				},
+				"plugin.6": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 28,
+					"gainLevel": 0.995497167,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": "CC7 -> CC9",
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				}
+			},
+			"RackFileRelative": "..\\Racks\\Nexus.cantabileRack",
+			"userNotes": "NRPN MSB 115-117",
+			"primaryView": false,
+			"resetRackState": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 115-117",
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"2": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1.99526215,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 115-117",
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"3": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1.99526215,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 115-117",
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					}
+				},
+				"resetState": null
+			},
+			"solo": false,
+			"soloControl": true,
+			"wiringPositionX": 375,
+			"wiringPositionY": 425,
+			"nextUniqueID": 5,
+			"uniqueId": 24,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"behaviour": 0,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "Stereo Out - Nexus 1",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"2": 
+							{
+								"sourcePort": "Stereo Out - Nexus 1",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"3": 
+							{
+								"sourcePort": "Stereo Out - Nexus 1",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 5,
+					"name": null,
+					"sourcePort": "Stereo Out - Nexus 1",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				},
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"behaviour": 0,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "Stereo Out - Nexus 2",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"2": 
+							{
+								"sourcePort": "Stereo Out - Nexus 2",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"3": 
+							{
+								"sourcePort": "Stereo Out - Nexus 2",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 4,
+					"name": null,
+					"sourcePort": "Stereo Out - Nexus 2",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				},
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"behaviour": 0,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "Stereo Out - Nexus 3",
+								"targetKind": "RackHost",
+								"targetName": "EQ",
+								"targetPort": "EQ 1",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"2": 
+							{
+								"sourcePort": "Stereo Out - Nexus 3",
+								"targetKind": "RackHost",
+								"targetName": "EQ",
+								"targetPort": "EQ 1",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"3": 
+							{
+								"sourcePort": "Stereo Out - Nexus 3",
+								"targetKind": "RackHost",
+								"targetName": "EQ",
+								"targetPort": "EQ 1",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 3,
+					"name": null,
+					"sourcePort": "Stereo Out - Nexus 3",
+					"targetKind": "RackHost",
+					"targetName": "EQ",
+					"targetPort": "EQ 1"
+				}
+			],
+			"name": "Nexus",
+			"displayExpanded": true,
+			"slotColor": "Default"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\Diva.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"rackhost.8": 
+				{
+					"runMode": "Running",
+					"selectedState": "2 Split same sound for Polyphony",
+					"resetRackState": false,
+					"outputGain": 1,
+					"exportedState": null,
+					"userNotes": null,
+					"slotColor": "Red",
+					"solo": false,
+					"soloControl": true,
+					"savedBehaviour": 511
+				},
+				"plugin.3": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 5,
+					"gainLevel": 0.4962565,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				},
+				"plugin.4": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 6,
+					"gainLevel": 0.503950238,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				}
+			},
+			"RackFileRelative": "..\\Racks\\Diva.cantabileRack",
+			"userNotes": "NRPN MSB 122-123",
+			"primaryView": false,
+			"resetRackState": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 122-123",
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"2": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 122-123",
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"3": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 122-123",
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					}
+				},
+				"resetState": null
+			},
+			"solo": false,
+			"soloControl": true,
+			"wiringPositionX": 375,
+			"wiringPositionY": 1025,
+			"nextUniqueID": 1,
+			"uniqueId": 29,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"behaviour": 13,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"2": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"3": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				}
+			],
+			"name": "Diva",
+			"displayExpanded": false,
+			"slotColor": "Default"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\fx.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"plugin.3": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 0,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				},
+				"plugin.4": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 0,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				},
+				"plugin.5": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 0,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				},
+				"plugin.6": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 1,
+					"gainLevel": 0.9979341,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				},
+				"plugin.8": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 0,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				},
+				"plugin.9": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 0,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": null,
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				},
+				"plugin.8.AudioRoute.2": 
+				{
+					"sourcePort": "Stereo Out",
+					"targetKind": "OutputPortProvider",
+					"targetName": "OutputPort",
+					"targetPort": "Rack: Stereo Out",
+					"enabled": true,
+					"gainLevel": 1,
+					"userNotes": null,
+					"savedBehaviour": 31
+				},
+				"plugin.8.AudioRoute.1": 
+				{
+					"sourcePort": "Stereo Out",
+					"targetKind": "Plugin",
+					"targetName": "FabFilter Pro-R 1",
+					"targetPort": "Stereo In",
+					"enabled": true,
+					"gainLevel": 1,
+					"userNotes": null,
+					"savedBehaviour": 31
+				}
+			},
+			"RackFileRelative": "..\\Racks\\fx.cantabileRack",
+			"userNotes": "NRPN MSB 126",
+			"primaryView": false,
+			"resetRackState": false,
+			"runMode": "Suspended",
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"runMode": "Suspended",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 126",
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"2": 
+					{
+						"runMode": "Suspended",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 126",
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"3": 
+					{
+						"runMode": "Suspended",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 126",
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					}
+				},
+				"resetState": null
+			},
+			"solo": false,
+			"soloControl": true,
+			"wiringPositionX": 375,
+			"wiringPositionY": 1325,
+			"nextUniqueID": 1,
+			"uniqueId": 28,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"behaviour": 13,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"2": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"3": 
+							{
+								"sourcePort": "Stereo Out",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "Stereo Out",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				}
+			],
+			"name": "FX",
+			"displayExpanded": false,
+			"slotColor": "Default"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\EQ.cantabileRack",
+			"gain": 1,
+			"rackState": null,
+			"exportedRackState": 
+			{
+				"plugin.3": 
+				{
+					"runMode": "Running",
+					"solo": false,
+					"soloControl": true,
+					"audioBypass": false,
+					"selectedProgram": 0,
+					"gainLevel": 1,
+					"wetDryBalance": 1,
+					"panPosition": 0,
+					"fadePosition": 1,
+					"bankBlob": null,
+					"bankData": "c07O82ZgYElwc3JOZGBgYHQLNCoA0UDMBKXBIIChiCGVoRiISxgUGAzBYhuetG3/Xc8AB48OnBL7A+RbQPnsaPSH/2DA78RwnwEZODGwMKPyIWDG1BxxkHknWpO3y9Sl5DMwMF9wBruX+YRbhVM2mnsZGQYYQNzGwOBW4Yzutv0uqWmJpTklCsGpJSWZeeko+uyB2O5U2UG7d0+t7IW+goPPDiTeAMXC9r32UHWjcqNy9JYDs6G0PRJGBjAzYGrsVq1aDVbngCSvtWo1XD2UBgA=",
+					"parameters": {},
+					"userNotes": null,
+					"slotColor": "Default",
+					"parameterEditorOpen": false,
+					"guiEditorOpen": false,
+					"morphPosition": 0,
+					"savedBehaviour": 4095
+				}
+			},
+			"RackFileRelative": "..\\Racks\\EQ.cantabileRack",
+			"userNotes": null,
+			"primaryView": false,
+			"resetRackState": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": null,
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"2": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": null,
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"3": 
+					{
+						"runMode": "Running",
+						"selectedState": null,
+						"resetRackState": false,
+						"outputGain": 1,
+						"exportedState": null,
+						"userNotes": null,
+						"slotColor": "Default",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					}
+				},
+				"resetState": null
+			},
+			"solo": false,
+			"soloControl": true,
+			"wiringPositionX": 675,
+			"wiringPositionY": 575,
+			"nextUniqueID": 1,
+			"uniqueId": 31,
+			"routes": 
+			[
+				
+				{
+					"kind": "audioRoute",
+					"gainLevel": 1,
+					"stateManager": 
+					{
+						"behaviour": 0,
+						"indexedBehaviour": null,
+						"externalBehaviour": 0,
+						"externalIndexedBehaviour": null,
+						"resetBehaviour": 0,
+						"resetIndexedBehaviour": null,
+						"states": 
+						{
+							"1": 
+							{
+								"sourcePort": "EQ 1",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"2": 
+							{
+								"sourcePort": "EQ 1",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							},
+							"3": 
+							{
+								"sourcePort": "EQ 1",
+								"targetKind": "RackHost",
+								"targetName": "Master",
+								"targetPort": "Stereo In",
+								"enabled": true,
+								"gainLevel": 1,
+								"userNotes": null,
+								"savedBehaviour": 31
+							}
+						},
+						"resetState": null
+					},
+					"wiringStartInset": 10,
+					"wiringEndInset": 10,
+					"enabled": true,
+					"userNotes": null,
+					"uniqueID": 1,
+					"name": null,
+					"sourcePort": "EQ 1",
+					"targetKind": "RackHost",
+					"targetName": "Master",
+					"targetPort": "Stereo In"
+				}
+			],
+			"name": "EQ",
+			"displayExpanded": false,
+			"slotColor": "Default"
+		},
+		
+		{
+			"kind": "RackHost",
+			"embeddedRack": null,
+			"RackFile": "C:\\Users\\pslama\\Documents\\Cantabile\\Racks\\Master.cantabileRack",
+			"gain": 1.12790775,
+			"rackState": "Live",
+			"exportedRackState": 
+			{
+				"inputPorts.1": 
+				{
+					"inputGain": 1.26175737,
+					"transpose": 0,
+					"userNotes": "NRPN 16265 (127.9) - Input Gain - to equalize songs",
+					"slotColor": "Red",
+					"savedBehaviour": 15
+				}
+			},
+			"RackFileRelative": "..\\Racks\\Master.cantabileRack",
+			"userNotes": "NRPN MSB 127",
+			"primaryView": false,
+			"resetRackState": false,
+			"runMode": "Running",
+			"stateManager": 
+			{
+				"behaviour": 0,
+				"indexedBehaviour": null,
+				"externalBehaviour": 0,
+				"externalIndexedBehaviour": null,
+				"resetBehaviour": 0,
+				"resetIndexedBehaviour": null,
+				"states": 
+				{
+					"1": 
+					{
+						"runMode": "Running",
+						"selectedState": "Live",
+						"resetRackState": false,
+						"outputGain": 1.12790775,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 127",
+						"slotColor": "Red",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"2": 
+					{
+						"runMode": "Running",
+						"selectedState": "Live",
+						"resetRackState": false,
+						"outputGain": 1.12790775,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 127",
+						"slotColor": "Red",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					},
+					"3": 
+					{
+						"runMode": "Running",
+						"selectedState": "Live",
+						"resetRackState": false,
+						"outputGain": 1.12790775,
+						"exportedState": null,
+						"userNotes": "NRPN MSB 127",
+						"slotColor": "Red",
+						"solo": false,
+						"soloControl": true,
+						"savedBehaviour": 511
+					}
+				},
+				"resetState": null
+			},
+			"solo": false,
+			"soloControl": true,
+			"wiringPositionX": 975,
+			"wiringPositionY": 425,
+			"nextUniqueID": 2,
+			"uniqueId": 12,
+			"routes": [],
+			"name": "Master",
+			"displayExpanded": false,
+			"slotColor": "Red"
+		}
+	],
+	"modifiedBehaviour": "SignificantChanges"
+}
