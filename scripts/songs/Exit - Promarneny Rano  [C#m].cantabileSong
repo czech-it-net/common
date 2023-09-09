@@ -97,7 +97,7 @@
 		}
 	},
 	"showNotes": [],
-	"currentState": "REF - Strings",
+	"currentState": "[FULL]",
 	"bindings": 
 	[
 		{
@@ -2357,13 +2357,13 @@
 	"triggers": [],
 	"viewAsRoutingDiagram": false,
 	"showPortsInRoutingDiagram": true,
-	"savedByVersion": "4.0.4063",
+	"savedByVersion": "4.0.4064",
 	"nextUniqueID": 30,
 	"objects": 
 	[
 		{
 			"kind": "InputPortProvider",
-			"transpose": 1,
+			"transpose": 0,
 			"inputGain": 0.9917563,
 			"stateManager": 
 			{
@@ -2576,7 +2576,7 @@
 					},
 					"wiringStartInset": 10,
 					"wiringEndInset": 10,
-					"enabled": false,
+					"enabled": true,
 					"userNotes": null,
 					"uniqueID": 16,
 					"name": "",
