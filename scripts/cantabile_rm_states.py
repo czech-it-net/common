@@ -62,12 +62,18 @@ def main():
     for file_path in file_dir.glob("*"):
         file_json = load_file(file_path)
 
-        if has_zero_states(file_json) and set_empty_routes_state_manager(file_json):
+        zero_states = has_zero_states(file_json)
+        changed_route_states = set_empty_routes_state_manager(file_json)
+
+        if zero_states and changed_route_states:
             with open(file_path, "w") as fhandle:
                 log.info(f"{file_path}: Cleaning states")
                 json.dump(file_json, fhandle, indent="\t")
-        else:
-            log.info(f"{file_path}: Skip - More states exist")
+
+        if not zero_states:
+            log.warning(f"{file_path}: Skip - More states exist - NOT TREATED")
+        elif not changed_route_states:
+            log.info(f"{file_path}: Skip - No change needed")
 
 if __name__ == "__main__":
     main()
