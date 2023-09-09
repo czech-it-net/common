@@ -1,8 +1,11 @@
 #!/bin/env python
 
+# fix tempos: find . -type f -exec sed -i 's@"4/4"@"4\\/4"@' {} \;
+
 import json
 import logging
 from pathlib import Path
+from json.encoder import JSONEncoder
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger()
@@ -14,34 +17,44 @@ def load_file(file_path):
     try:
         with open(file_path) as fhandle:
             file_json = json.load(fhandle)
-            log.info(f"Loaded: {file_path}")
+            log.debug(f"Loaded: {file_path}")
 
     except json.decoder.JSONDecodeError:
-        log.warning(f"Skipping: {file_path} (JSON error)")
+        log.info(f"{file_path}: Skipping for JSON error")
 
     return file_json
 
 
 def has_zero_states(file_json):
-    return "states" in file_json and len(file_json["states"])
+    return "states" in file_json and not len(file_json["states"])
 
 
 def set_empty_routes_state_manager(file_json):
+    changed = False
+
     for object in file_json["objects"]:
         for route in object.get("routes", []):
-            del route["stateManager"]
+            if not route["stateManager"]["states"]:
+                continue
+
+            changed = True
             route["stateManager"] = {
                 "behaviour": 1,
-                "indexedBehaviour": null,
+                "indexedBehaviour": None,
                 "externalBehaviour": 0,
-                "externalIndexedBehaviour": null,
+                "externalIndexedBehaviour": None,
                 "nonLinkedBehaviour": 0,
-                "nonLinkedIndexedBehaviour": null,
+                "nonLinkedIndexedBehaviour": None,
                 "resetBehaviour": 0,
-                "resetIndexedBehaviour": null,
+                "resetIndexedBehaviour": None,
                 "states": {},
-                "resetState": null
+                "resetState": None
             }
+    for note in file_json["showNotes"]:
+        note["imageFile"] = ""
+        note["imageFileRelative"] = ""
+
+    return changed
 
 
 def main():
@@ -49,8 +62,12 @@ def main():
     for file_path in file_dir.glob("*"):
         file_json = load_file(file_path)
 
-        if has_zero_states(file_json):
-            file_json["objects"][]
+        if has_zero_states(file_json) and set_empty_routes_state_manager(file_json):
+            with open(file_path, "w") as fhandle:
+                log.info(f"{file_path}: Cleaning states")
+                json.dump(file_json, fhandle, indent="\t")
+        else:
+            log.info(f"{file_path}: Skip - More states exist")
 
 if __name__ == "__main__":
     main()
